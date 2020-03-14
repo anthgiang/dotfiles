@@ -11,5 +11,5 @@ echo "symlinks created:"
 # loop through each dotfile specified and create a symlink
 for dotfile in "${dotfiles[@]}"; do
 	ln -sf "${dir}/${dotfile}" "${HOME}/${dotfile}"
-	echo "${HOME}/${dotfile}  ->  ${dir}/${dotfile} "
+	echo "${HOME}/${dotfile} -> ${dir}/${dotfile} "
 done
