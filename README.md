@@ -1,5 +1,7 @@
 # dotfiles
 
+Minimalistic.
+
 ## Usage
 1. Clone this repository somewhere on your machine. 
 This guide will assume `~/.dotfiles`.
