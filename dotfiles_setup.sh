@@ -2,6 +2,7 @@
 
 # list of dotfiles to be symlinked
 dotfiles=(".zshrc" ".vimrc" ".tmux.conf")
+
 # directory of the source dotfiles
 dir="${HOME}/.dotfiles"
 

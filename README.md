@@ -12,7 +12,7 @@ This guide will assume `~/.dotfiles`.
 This will symlink all the dotfiles to the home folder.
 
 ```
-./dotfiles_setup
+./dotfiles_setup.sh
 ```
 
 3. Start a new terminal session.
