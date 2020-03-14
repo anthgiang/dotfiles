@@ -5,7 +5,7 @@
 This guide will assume `~/.dotfiles`.
 
 ```
- git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+ git clone https://github.com/anthgiang/dotfiles.git ~/.dotfiles
 ```
 
 2. Execute the script `dotfiles_setup.sh`.
