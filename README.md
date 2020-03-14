@@ -1,1 +1,18 @@
 # dotfiles
+
+## Usage
+1. Clone this repository somewhere on your machine. 
+This guide will assume `~/.dotfiles`.
+
+```
+ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+```
+
+2. Execute the script `dotfiles_setup.sh`.
+This will symlink all the dotfiles to the home folder.
+
+```
+./dotfiles_setup
+```
+
+3. Start a new terminal session.
