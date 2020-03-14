@@ -1,8 +1,8 @@
-# dotfiles
+# Dotfiles
 
 Minimalistic.
 
-## Usage
+#### Usage
 1. Clone this repository somewhere on your machine. 
 This guide will assume `~/.dotfiles`.
 
@@ -11,10 +11,11 @@ This guide will assume `~/.dotfiles`.
 ```
 
 2. Execute the script `dotfiles_setup.sh`.
-This will symlink all the dotfiles to the home folder.
+This script will symlink all dotfiles to the home folder.
 
 ```
 ./dotfiles_setup.sh
 ```
 
-3. Start a new terminal session.
+3. Now start a new terminal session.
+This step will solace your soul.
