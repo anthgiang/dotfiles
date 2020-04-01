@@ -1,20 +1,26 @@
 # Dotfiles
 
 Minimalistic.
+tmux, vim, zsh.
 
-#### Usage
+#### Requirements:
+- zsh shell (macOS Catalina).
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).
+
+#### Usage:
+
 1. Clone this repository somewhere on your machine. 
-This guide will assume `~/.dotfiles`.
+The following command will create and clone into a `~/.dotfiles` directory.
 
 ```
  git clone https://github.com/anthgiang/dotfiles.git ~/.dotfiles
 ```
 
-2. Execute the script `dotfiles_setup.sh`.
+1. Execute the script `dotfiles_setup.sh`.
 This script will symlink all dotfiles to the home folder.
 
 ```
-./dotfiles_setup.sh
+~/.dotfiles/dotfiles_setup.sh
 ```
 
 3. Now start a new terminal session.
