@@ -1,6 +1,7 @@
 # Dotfiles
 
-Minimalistic.
+My personal minimalistic dotfiles.
+
 tmux, vim, zsh.
 
 #### Requirements:
@@ -9,14 +10,16 @@ tmux, vim, zsh.
 
 #### Usage:
 
-1. Clone this repository somewhere on your machine. 
+1. Clone this repository somewhere on your machine.
+
 The following command will create and clone into a `~/.dotfiles` directory.
 
 ```
  git clone https://github.com/anthgiang/dotfiles.git ~/.dotfiles
 ```
 
-1. Execute the script `dotfiles_setup.sh`.
+2. Execute the script `dotfiles_setup.sh`.
+
 This script will symlink all dotfiles to the home folder.
 
 ```
@@ -24,4 +27,5 @@ This script will symlink all dotfiles to the home folder.
 ```
 
 3. Now start a new terminal session.
+
 This step will solace your soul.
