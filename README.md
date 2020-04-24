@@ -29,3 +29,8 @@ This script will symlink all dotfiles to the home folder.
 3. Now start a new terminal session.
 
 This step will solace your soul.
+
+**Visual:**
+![alt text][logo]
+
+[logo]: /res/lookslikethis.png "Logo Title Text 2"
