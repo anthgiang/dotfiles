@@ -31,6 +31,6 @@ This script will symlink all dotfiles to the home folder.
 This step will solace your soul.
 
 **Visual:**
-![alt text][logo]
+![alt text][visual]
 
-[logo]: /res/lookslikethis.png "Logo Title Text 2"
+[visual]: /res/lookslikethis.png "a picture."
