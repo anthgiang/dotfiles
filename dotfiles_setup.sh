@@ -4,6 +4,7 @@
 dotfiles=(".zshrc" ".vimrc" ".tmux.conf")
 
 # directory of the source dotfiles
+# if the folder is located elsewhere, change accordingly
 dir="${HOME}/.dotfiles"
 
 echo "symlinks created:"
