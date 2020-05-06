@@ -1,5 +1,5 @@
-# modify zsh prompt
-PROMPT='%K{220}%F{0}[%* %n@%m: %~]%k%f '
+# default zsh prompt
+PROMPT='%K{190}%F{0}[%* %n@%m: %~]%k%f '
 
 # display the current git branch
 autoload -Uz vcs_info
