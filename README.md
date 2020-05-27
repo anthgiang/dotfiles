@@ -10,16 +10,16 @@ tmux, vim, zsh.
 
 #### Usage:
 
-1. Clone this repository on your machine. The following command will create a `~/.dotfiles` directory and clone this repository in it.
+1. Clone this repository on your machine. The following command will create a `~/.dots` directory and clone this repository in it.
 
 ```
- git clone https://github.com/anthgiang/dotfiles.git ~/.dotfiles
+ git clone https://github.com/anthgiang/dotfiles.git ~/.dots
 ```
 
-2. Execute the script `dotfiles_setup.sh`. This script will symlink all dotfiles from the `~/.dotfiles` folder to the home folder.
+2. Execute the script `dots_setup.sh`. This script will symlink all dotfiles from the `~/.dots` folder to the home folder.
 
 ```
-~/.dotfiles/dotfiles_setup.sh
+~/.dots/dots_setup.sh
 ```
 
 3. Now start a new terminal session.
