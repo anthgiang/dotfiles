@@ -13,6 +13,7 @@ zstyle ':vcs_info:git:*' formats '[%b]'
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases:
+alias ls="ls -G"
 alias dev="cd ~/dev"
 
 # functions:
