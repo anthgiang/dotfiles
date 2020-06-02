@@ -1,0 +1,14 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Anthony Giang
+	email = anth@sent.com
+
+[core]
+	excludesfile = /Users/ag/.gitignore
+
+[alias]
+	tree = log --all --decorate --oneline --graph
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

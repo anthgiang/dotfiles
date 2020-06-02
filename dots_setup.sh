@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # list of dotfiles to be symlinked
-files=("zshrc" "vimrc" "tmux.conf")
+files=("zshrc" "vimrc" "tmux.conf" "gitconfig" "gitignore")
 
 # directory of the source dotfiles
 # if the folder is located elsewhere, change accordingly
-dir="${HOME}/.dots"
+dir="${HOME}/dev/dots"
 
 echo "symlinks created:"
 

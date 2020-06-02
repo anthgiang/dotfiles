@@ -1,6 +1,6 @@
 # Dotfiles
 
-For: tmux, vim, zsh.
+For: zsh, vim, tmux, gitconfig, gitignore.
 
 #### Requirements:
 - zsh shell (macOS).

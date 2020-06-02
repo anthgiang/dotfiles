@@ -14,4 +14,14 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases:
 alias dev="cd ~/dev"
-alias dots="cd ~/.dots"
+
+# functions:
+function gh(){
+giturl=$(git config remote.origin.url)
+ if [[ $giturl == "" ]]
+ then
+ 	echo "fatal: not a git repository (or no remote repository set)."
+ else
+ 	open $giturl
+  fi
+}
