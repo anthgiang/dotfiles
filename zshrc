@@ -17,7 +17,7 @@ alias ls="ls -G"
 alias dev="cd ~/dev"
 
 # functions:
-function gh(){
+function github(){
 giturl=$(git config remote.origin.url)
  if [[ $giturl == "" ]]
  then
