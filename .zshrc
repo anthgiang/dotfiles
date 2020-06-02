@@ -13,5 +13,5 @@ zstyle ':vcs_info:git:*' formats '[%b]'
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases:
-alias dev="cd ~/dev/"
-alias dots="cd ~/.dots/"
+alias dev="cd ~/dev"
+alias dots="cd ~/.dots"
