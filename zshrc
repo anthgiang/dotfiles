@@ -21,7 +21,7 @@ function github(){
 giturl=$(git config remote.origin.url)
  if [[ $giturl == "" ]]
  then
- 	echo "fatal: not a git repository (or no remote repository set)."
+ 	echo "fatal: not a git repository (or remote repository not set)."
  else
  	open $giturl
   fi
