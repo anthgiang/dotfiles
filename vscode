@@ -1,0 +1,16 @@
+{
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "latex-workshop.message.update.show": false,
+    "workbench.activityBar.visible": true,
+    "editor.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+}
