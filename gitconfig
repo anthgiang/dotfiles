@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Anthony Giang
-	email = anth@sent.com
+	email = github@anth.sent.com
 
 [core]
 	excludesfile = /Users/ag/.gitignore
