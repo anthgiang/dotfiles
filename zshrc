@@ -36,10 +36,9 @@ else
 	hours=$1; minutes=$2; seconds=$3
 	total=$(($(($hours * 3600)) + $(($minutes * 60)) + $(($seconds * 1))))
 	for i in {$total..0}; do
-		printf '\rTIME LEFT: %d ' $i
+		printf '\rtime left: %d ' $i
 		sleep 1
 	done; 
-	echo  # output the final 0.
 	afplay ~/dev/static/dvdasa.mp4
 fi
 }
