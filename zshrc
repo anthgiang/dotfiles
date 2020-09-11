@@ -39,6 +39,6 @@ else
 		printf '\rtime left: %d ' $i
 		sleep 1
 	done; 
-	afplay ~/dev/static/dvdasa.mp4
+	afplay ~/dev/offln/video/evergarden.mp4
 fi
 }
