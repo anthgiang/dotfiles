@@ -31,7 +31,7 @@ giturl=$(git config remote.origin.url)
 # countdown and play a tune.
 function countdown(){
 if [[ $# != 3 ]]; then
- 	echo "usage: alarm HH MM ss"
+ 	echo "usage: countdown HH MM ss"
 else
 	hours=$1; minutes=$2; seconds=$3
 	total=$(($(($hours * 3600)) + $(($minutes * 60)) + $(($seconds * 1))))
@@ -39,6 +39,6 @@ else
 		printf '\rtime left: %d ' $i
 		sleep 1
 	done; 
-	afplay ~/dev/offln/video/evergarden.mp4
+	afplay ~/dev/offln/video/bobbylee.mp4
 fi
 }
