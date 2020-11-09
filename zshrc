@@ -6,15 +6,15 @@ autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
-RPROMPT=%B%K{182}%F{0}\$vcs_info_msg_0_$f
+RPROMPT=%B%K{209}%F{0}\$vcs_info_msg_0_$f
 zstyle ':vcs_info:git:*' formats '[%b]'
 
 ## enable auto-suggestions for zsh from .zsh_history
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## aliases:
-alias ls="ls -G"
-alias dev="cd ~/dev"
+alias ls="ls -G"  # colorise output
+alias dev="cd ~/dev"  # just a shortcut
 
 ## functions:
 
@@ -22,7 +22,7 @@ alias dev="cd ~/dev"
 function github(){
 giturl=$(git config remote.origin.url)
  if [[ $giturl == "" ]]; then
- 	echo "fatal: not a git repository (or remote repository not set)."
+ 	echo "fatal: remote repository not set."
  else
  	open $giturl
  fi
