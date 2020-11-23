@@ -1,6 +1,6 @@
 # Dotfiles
 
-For: zsh, vim, tmux, gitconfig, gitignore.
+Symlink: zsh, vim, tmux, gitconfig, gitignore.
 
 #### Requirements:
 - zsh shell (macOS).
@@ -9,9 +9,9 @@ For: zsh, vim, tmux, gitconfig, gitignore.
 #### Usage:
 1. Clone this repository on your machine.
 ```
- git clone https://github.com/anthgiang/dotfiles.git ~/dev/dots
+ git clone https://github.com/anthgiang/dotfiles.git ~/dev/projects/dots
 ```
 2. Execute `dots_setup.sh`.
 ```
-~/dev/dots/dots_setup.sh
+~/dev/projects/dots/dots_setup.sh
 ```

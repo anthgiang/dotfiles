@@ -1,5 +1,5 @@
 ## default zsh prompt
-PROMPT='%B%K{112}%F{0}[%~]%k%f%b '
+PROMPT='%B%K{220}%F{0}[%~]%k%f%b '
 
 ## display the current git branch
 autoload -Uz vcs_info
@@ -17,16 +17,6 @@ alias ls="ls -G"  # colorise output
 alias dev="cd ~/dev"  # just a shortcut
 
 ## functions:
-
-# open the github repository in the default web browser.
-function github(){
-giturl=$(git config remote.origin.url)
- if [[ $giturl == "" ]]; then
- 	echo "fatal: remote repository not set."
- else
- 	open $giturl
- fi
-}
 
 # countdown and play a tune.
 function countdown(){
