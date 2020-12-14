@@ -6,7 +6,7 @@ autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
-RPROMPT=%B%K{209}%F{0}\$vcs_info_msg_0_$f
+RPROMPT=%B%K{78}%F{0}\$vcs_info_msg_0_$f
 zstyle ':vcs_info:git:*' formats '[%b]'
 
 ## enable auto-suggestions for zsh from .zsh_history
@@ -14,7 +14,8 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## aliases:
 alias ls="ls -G"  # colorise output
-alias dev="cd ~/dev"  # just a shortcut
+alias dev="cd ~/dev; ls"  # just a shortcut
+alias projs="cd ~/dev/projects; ls"  # just a shortcut
 
 ## functions:
 
@@ -29,6 +30,6 @@ else
 		printf '\rtime left: %d ' $i
 		sleep 1
 	done; 
-	afplay ~/dev/offln/video/bobbylee.mp4
+	afplay ~/dev/offln/video/tigerbelly.mp4
 fi
 }

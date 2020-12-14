@@ -4,7 +4,7 @@
 	email = github@anth.sent.com
 
 [core]
-	excludesfile = /Users/ag/.gitignore
+	excludesfile = /Users/anth/dev/projects/dots/gitignore_global
 
 [alias]
 	tree = log --all --decorate --oneline --graph
@@ -12,3 +12,11 @@
 	br = branch
 	ci = commit
 	st = status
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/anth/.stCommitMsg
