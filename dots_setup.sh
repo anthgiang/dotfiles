@@ -5,7 +5,7 @@ files=("zshrc" "vimrc" "tmux.conf" "gitconfig" "gitignore_global")
 
 # directory of the source dotfiles
 # if the folder is located elsewhere, change accordingly
-dir="${HOME}/dev/projects/dots"
+dir="${HOME}/dev/projects/dotfiles"
 
 echo "symlinks created:"
 
