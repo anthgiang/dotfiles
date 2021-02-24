@@ -12,7 +12,6 @@ zstyle ':vcs_info:git:*' formats '[%b]'
 ## aliases:
 alias ls="ls -lhG"  # long format, display size, and colorize
 alias dev="cd ~/dev; ls"  # just a shortcut
-alias projects="cd ~/dev/projects; ls"  # just a shortcut
 
 ## enable auto-suggestions for zsh from .zsh_history
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
