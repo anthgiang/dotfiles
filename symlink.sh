@@ -5,9 +5,9 @@ files=("zshrc" "vimrc" "tmux.conf" "gitconfig" "gitignore")
 
 # directory of the source dotfiles
 # if the folder is located elsewhere, change accordingly
-dir="${HOME}/dev/projects/dotfiles"
+dir="${HOME}/dev/reboot"
 
-echo "symlinks created:"
+echo "create symlinks:"
 
 # loop through each dotfile specified and create a symlink
 for file in "${files[@]}"; do
