@@ -8,4 +8,4 @@
 - `~/dev/reboot/`
 
 ##### Usage:
-`> ./symlink`
+- `> ./symlink`
