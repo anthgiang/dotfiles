@@ -9,13 +9,18 @@ setopt prompt_subst
 RPROMPT=%B%K{124}%F{0}\$vcs_info_msg_0_$f
 zstyle ':vcs_info:git:*' formats '[%b]'
 
-## enable auto-suggestions for zsh from .zsh_history
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 ## aliases:
 alias ls="ls -lhG"  # long format, display size, and colorize
 alias dev="cd ~/dev; ls"  # just a shortcut
 alias projects="cd ~/dev/projects; ls"  # just a shortcut
+
+## enable auto-suggestions for zsh from .zsh_history
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# automatically activate/deactivate virtualenvs on entering/leaving directories
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 
 ## functions:
 
@@ -33,12 +38,3 @@ else
 	afplay ~/dev/offline/video/tigerbelly.mp4
 fi
 }
-
-# Node version manager.
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# automatically activate/deactivate virtualenvs on entering/leaving directories
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"

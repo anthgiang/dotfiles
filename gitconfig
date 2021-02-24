@@ -4,7 +4,7 @@
 	email = github@anth.sent.com
 
 [core]
-	excludesfile = /Users/anth/dev/projects/dots/gitignore_global
+	excludesfile = /Users/anth/.gitignore
 
 [alias]
 	tree = log --all --decorate --oneline --graph

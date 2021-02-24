@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # list of dotfiles to be symlinked
-files=("zshrc" "vimrc" "tmux.conf" "gitconfig" "gitignore_global")
+files=("zshrc" "vimrc" "tmux.conf" "gitconfig" "gitignore")
 
 # directory of the source dotfiles
 # if the folder is located elsewhere, change accordingly
