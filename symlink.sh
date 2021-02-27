@@ -9,7 +9,7 @@ dir="${HOME}/dev/reboot"
 
 echo "create symlinks:"
 
-# loop through each dotfile specified and create a symlink
+# symlink the files to the home folder
 for file in "${files[@]}"; do
 	ln -sf "${dir}/${file}" "${HOME}/.${file}"
 	echo "${HOME}/.${file} -> ${dir}/${file} "

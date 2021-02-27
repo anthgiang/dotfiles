@@ -18,7 +18,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # automatically activate/deactivate virtualenvs on entering/leaving directories
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 
 
 ## functions:
@@ -34,6 +33,6 @@ else
 		printf '\rtime left: %d ' $i
 		sleep 1
 	done; 
-	afplay ~/dev/offline/video/tigerbelly.mp4
+	afplay ~/dev/-video-/「veil」MV.mp4
 fi
 }
