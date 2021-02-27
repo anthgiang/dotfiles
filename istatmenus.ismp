@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<string>1157</string>
+	<string>1164</string>
 	<key>license</key>
 	<dict>
 		<key>email</key>
@@ -36,6 +36,23 @@
 		<array/>
 		<key>CPU_DropdownOrderDisabled</key>
 		<string>buttons</string>
+		<key>CPU_MenubarGraphBreakdowns</key>
+		<integer>0</integer>
+		<key>CPU_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>100</string>
+				<key>uuid</key>
+				<string>EF5C27C0-65B2-4A00-A699-28E3647C5CE4</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>1</string>
+				<key>uuid</key>
+				<string>2620F722-673C-4AFD-B3EC-14EB5252163F</string>
+			</dict>
+		</array>
 		<key>CombinedMenubarDisplayMode</key>
 		<array>
 			<dict>
@@ -60,8 +77,6 @@
 				<true/>
 				<key>key</key>
 				<string>8E698919-2DCC-46F3-B67A-053D708750D0</string>
-				<key>name</key>
-				<string>APPLE SSD</string>
 			</dict>
 		</array>
 		<key>FanControl_AutomaticSwitching</key>
@@ -179,11 +194,15 @@
 		<key>Memory_DropdownOrderDisabled</key>
 		<string>buttons</string>
 		<key>Menubar-DetectedColor</key>
-		<string>0.92 0.92 0.92 1.00</string>
+		<string>1.00 1.00 1.00 0.90</string>
 		<key>MenubarGraphOpacity-Dark</key>
 		<real>0.0</real>
+		<key>MenubarGraphOpacity-Dark-Modern</key>
+		<real>0.0</real>
+		<key>MenubarGraphSize</key>
+		<integer>0</integer>
 		<key>MenubarSkinColor-Dark</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>Migrated_6.0</key>
 		<true/>
 		<key>Migrated_6.22</key>
@@ -210,7 +229,7 @@
 		<key>Network_StatusCheckFlatten</key>
 		<integer>0</integer>
 		<key>Notifications-Enabled</key>
-		<false/>
+		<true/>
 		<key>Notifications-Items</key>
 		<array>
 			<dict>
@@ -292,8 +311,6 @@
 			<integer>5</integer>
 			<integer>2</integer>
 			<integer>1</integer>
-			<integer>7</integer>
-			<integer>6</integer>
 		</array>
 		<key>Time_Cities</key>
 		<array>
@@ -408,11 +425,11 @@
 		<key>Zarya-TLE</key>
 		<dict>
 			<key>time</key>
-			<real>1613997477.804045</real>
+			<real>1614348175.0428391</real>
 			<key>tle</key>
 			<string>ISS (ZARYA)             
-1 25544U 98067A   21053.38004212 -.00001793  00000-0 -24413-4 0  9991
-2 25544  51.6404 190.5754 0002839  40.9044 351.9869 15.48982623270802</string>
+1 25544U 98067A   21057.31813127  .00001815  00000-0  41087-4 0  9990
+2 25544  51.6437 171.0913 0002958  53.8881 353.8817 15.49009618271410</string>
 		</dict>
 	</dict>
 	<key>version</key>
